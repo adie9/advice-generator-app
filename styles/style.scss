@@ -33,12 +33,14 @@ body {
         color: $pr-neon-green;
         font-size: 0.8em;
         margin-bottom: 10px;
+        letter-spacing: 2pt;
     }
 
     blockquote {
         color: $pr-light-cyan;
         font-size: $quote-fs;
         margin-bottom: 20px;
+        font-size: 800;
     }
 
     .divider {
@@ -68,7 +70,7 @@ body {
      font-size: 11px; 
      text-align: center; 
      color: aliceblue;
-     margin: 20px auto;
+     margin: 30px auto;
     }
 
 .attribution a {

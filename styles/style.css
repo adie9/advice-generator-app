@@ -22,11 +22,13 @@ body {
   color: hsl(150, 100%, 66%);
   font-size: 0.8em;
   margin-bottom: 10px;
+  letter-spacing: 2pt;
 }
 .container blockquote {
   color: hsl(193, 38%, 86%);
   font-size: 28px;
   margin-bottom: 20px;
+  font-size: 800;
 }
 .container .divider {
   margin-bottom: 20px;
@@ -52,7 +54,7 @@ body {
   font-size: 11px;
   text-align: center;
   color: aliceblue;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .attribution a {
