@@ -60,6 +60,7 @@ body {
         width: 50px;
         height: 50px;
         background-color: $pr-neon-green;
+        border-style: none;
 
         .dice {
             width: 24px;
@@ -67,7 +68,7 @@ body {
             margin: auto 0;
         }
 
-        :hover {
+        &:hover {
             box-shadow: 0 0 15px 10px $pr-neon-green;
         }
     }
