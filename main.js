@@ -11,13 +11,15 @@ fetch("https://api.adviceslip.com/advice")
     
     .then(data => {
         console.log(data.slip);
+
         id = data.slip.id;
         quote = data.slip.advice;
+
         console.log(id);
         console.log(quote);
 
         number.innerText = `Advice #${id}`;
-        advice.innerText = `${quote}`;
+        advice.innerText = `"${quote}"`;
         
     })
         

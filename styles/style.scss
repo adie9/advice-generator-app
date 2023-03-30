@@ -22,8 +22,32 @@ body {
 .container {
     background-color: $dark-grayish-blue;
     border-radius: 15px;
+    text-align: center;
+    padding: 30px 15px;
+
+    h1 {
+        color: $pr-neon-green;
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+
+    blockquote {
+        color: $pr-light-cyan;
+        font-size: $quote-fs;
+        margin-bottom: 20px;
+    }
+
+    img {
+        margin-bottom: 20px;
+    }
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+     color: aliceblue;
+    }
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }

@@ -11,11 +11,27 @@ body {
 .container {
   background-color: hsl(217, 19%, 24%);
   border-radius: 15px;
+  text-align: center;
+  padding: 30px 15px;
+}
+.container h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+.container blockquote {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.container img {
+  margin-bottom: 20px;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: aliceblue;
 }
 
 .attribution a {
