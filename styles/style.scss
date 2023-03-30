@@ -17,7 +17,7 @@ $quote-fs: 28px;
 body {
     font-family: 'Manrope', sans-serif;
     background-color: $dark-blue;
-    margin: 30px 10px;
+    margin: 200px 10px;
 }
 
 .container {
@@ -28,6 +28,8 @@ body {
     text-align: center;
     padding: 30px 15px;
     position: relative;
+    max-width: 475px;
+    margin: 0 auto;
 
     h1 {
         color: $pr-neon-green;
@@ -45,6 +47,7 @@ body {
 
     .divider {
         margin-bottom: 20px;
+        max-height: 16px;
     }
 
     .dice-container {
@@ -63,7 +66,13 @@ body {
             height: 24px;
             margin: auto 0;
         }
+
+        :hover {
+            box-shadow: 0 0 15px 10px $pr-neon-green;
+        }
     }
+
+
 }
 
 .attribution {

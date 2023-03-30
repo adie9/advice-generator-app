@@ -6,7 +6,7 @@
 body {
   font-family: "Manrope", sans-serif;
   background-color: hsl(218, 23%, 16%);
-  margin: 30px 10px;
+  margin: 200px 10px;
 }
 
 .container {
@@ -17,6 +17,8 @@ body {
   text-align: center;
   padding: 30px 15px;
   position: relative;
+  max-width: 475px;
+  margin: 0 auto;
 }
 .container h1 {
   color: hsl(150, 100%, 66%);
@@ -32,6 +34,7 @@ body {
 }
 .container .divider {
   margin-bottom: 20px;
+  max-height: 16px;
 }
 .container .dice-container {
   position: absolute;
@@ -48,6 +51,9 @@ body {
   width: 24px;
   height: 24px;
   margin: auto 0;
+}
+.container .dice-container :hover {
+  box-shadow: 0 0 15px 10px hsl(150, 100%, 66%);
 }
 
 .attribution {
