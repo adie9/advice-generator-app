@@ -17,13 +17,17 @@ $quote-fs: 28px;
 body {
     font-family: 'Manrope', sans-serif;
     background-color: $dark-blue;
+    margin: 30px 10px;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     background-color: $dark-grayish-blue;
     border-radius: 15px;
     text-align: center;
     padding: 30px 15px;
+    position: relative;
 
     h1 {
         color: $pr-neon-green;
@@ -37,8 +41,26 @@ body {
         margin-bottom: 20px;
     }
 
-    img {
+    .divider {
         margin-bottom: 20px;
+    }
+
+    .dice-container {
+        position: absolute;
+        bottom: -25px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: $pr-neon-green;
+
+        .dice {
+            width: 24px;
+            height: 24px;
+            margin: auto 0;
+        }
     }
 }
 
@@ -46,6 +68,7 @@ body {
      font-size: 11px; 
      text-align: center; 
      color: aliceblue;
+     margin: 20px auto;
     }
 
 .attribution a {

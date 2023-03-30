@@ -6,13 +6,17 @@
 body {
   font-family: "Manrope", sans-serif;
   background-color: hsl(218, 23%, 16%);
+  margin: 30px 10px;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   background-color: hsl(217, 19%, 24%);
   border-radius: 15px;
   text-align: center;
   padding: 30px 15px;
+  position: relative;
 }
 .container h1 {
   color: hsl(150, 100%, 66%);
@@ -24,14 +28,31 @@ body {
   font-size: 28px;
   margin-bottom: 20px;
 }
-.container img {
+.container .divider {
   margin-bottom: 20px;
+}
+.container .dice-container {
+  position: absolute;
+  bottom: -25px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(150, 100%, 66%);
+}
+.container .dice-container .dice {
+  width: 24px;
+  height: 24px;
+  margin: auto 0;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
   color: aliceblue;
+  margin: 20px auto;
 }
 
 .attribution a {
